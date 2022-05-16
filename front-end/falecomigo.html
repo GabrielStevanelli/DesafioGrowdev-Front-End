@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="menu-container">
+      <img src="./assets/Sem título.png" alt="foto do Gabriel" />
+      <h1>Gabriel Stevanelli de Souza</h1>
+      <h3>Cidade: Americana-SP</h3>
+      <h3>Celular: (19) 99140-2369</h3>
+      <h3>Email: Gabriel_stevanelli@hotmail.com</h3>
+      <h3>
+        <a href="https://www.linkedin.com/in/gabriel-stevanelli-5b2426207/"
+          >Linkedin</a
+        >
+        <h3><a href="https://github.com/GabrielStevanelli">GitHub</a></h3>
+      </h3>
+      <div></div>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="./index.html">Curriculo</a></li>
+      </ul>
+      <ul>
+        <li><a href="./comentários.html">Comentários</a></li>
+      </ul>
+      <ul>
+        <li><a href="./falecomigo.html">Contate-me</a></li>
+      </ul>
+    </nav>
+    <form id="form">
+      <h2>Entre em contato comigo</h2>
+      <div>
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="phone">Telefone</label>
+        <input type="tel" name="phone" id="phone" required />
+      </div>
+      <label for="description">Descrição</label>
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          rows="10"
+          required
+        ></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+    <script src="./contato.js"></script>
+  </body>
+</html>
