@@ -43,6 +43,7 @@ async function renderComments() {
     commentBox.innerHTML = string_of_html;
     container.append(commentBox);
   });
+  document.getElementById("comments").innerHTML = "";
   document.getElementById("comments").append(container);
 }
 
