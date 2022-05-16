@@ -7,35 +7,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
-  <body>
-    <div class="menu-container">
-      <img src="./assets/Sem título.png" alt="foto do Gabriel" />
+  <div class="menu-container">
+    <div class="menu">
+      <img src="./assets/Sem título.png" alt="foto do Gabriel" id="foto" />
       <h1>Gabriel Stevanelli de Souza</h1>
       <h3>Cidade: Americana-SP</h3>
       <h3>Celular: (19) 99140-2369</h3>
       <h3>Email: Gabriel_stevanelli@hotmail.com</h3>
-      <h3>
-        <a href="https://www.linkedin.com/in/gabriel-stevanelli-5b2426207/"
-          >Linkedin</a
-        >
-        <h3><a href="https://github.com/GabrielStevanelli">GitHub</a></h3>
-      </h3>
-      <div></div>
-    </div>
 
-    <nav class="navbar">
-      <ul>
-        <li><a href="./index.html">Curriculo</a></li>
-      </ul>
-      <ul>
-        <li><a href="./comentários.html">Comentários</a></li>
-      </ul>
-      <ul>
-        <li><a href="./falecomigo.html">Contate-me</a></li>
-      </ul>
-    </nav>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html">Curriculo</a></li>
+        </ul>
+        <ul>
+          <li><a href="./comentários.html">Comentários</a></li>
+        </ul>
+        <ul>
+          <li><a href="./falecomigo.html">Contate-me</a></li>
+        </ul>
+      </nav>
+      <a
+        target="blank"
+        href="https://www.linkedin.com/in/gabriel-stevanelli-5b2426207/"
+        id="space"
+        >Linkedin</a
+      >
+      <a
+        target="_blank"
+        href="https://github.com/GabrielStevanelli"
+        id="space"
+        >GitHub</a
+      >
+  </div>
+    </div>
     <form id="form">
-      <h2>Entre em contato comigo</h2>
+      <h2>Entre em contato</h2>
       <div>
         <label for="name">Nome</label>
         <input type="text" name="name" id="name" required />
@@ -48,12 +54,12 @@
         <label for="phone">Telefone</label>
         <input type="tel" name="phone" id="phone" required />
       </div>
-      <label for="description">Descrição</label>
-      <div>
+      <label for="description" id="description">Descrição</label>
+      <div class="description">
         <textarea
           name="description"
           id="description"
-          rows="10"
+          rows="15"
           required
         ></textarea>
       </div>

@@ -38,6 +38,7 @@ async function renderComments() {
   const comments = await getComments();
   comments.forEach((comment) => {
     let commentBox = document.createElement("div");
+    commentBox.className = "commentBox";
     let { name, description } = comment;
     let string_of_html = `<h4 class="comment-title">${name}</h4> <p class="comment-paragraph">${description}</p>`;
     commentBox.innerHTML = string_of_html;

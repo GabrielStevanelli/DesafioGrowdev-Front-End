@@ -1,15 +1,124 @@
 body * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
+}
+
+textarea {
+  resize: none;
+  box-shadow: 3px 3px 15px black;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  padding: 3px;
+  border: 1px solid;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  background: rgb(83, 79, 79);
+}
+a:hover {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  align-items: center;
+  display: grid;
   text-align: center;
+}
+.comment-container {
+  border: 2px solid black;
+  margin-top: 20px;
+  border-radius: 30px;
+  background: lightgrey;
+}
+.commentBox {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 15px;
+  background: #ffff;
+  border-radius: 30px;
+  box-shadow: 3px 3px 15px black;
+}
+.comment-title {
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    Courier, monospace;
+}
+
+.comment-paragraph {
+  padding: 10px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu-container {
+  background: lightgray;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 4px black;
 }
 
 img {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  float: left;
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 3px 3px 15px black;
-  margin: 15px;
+  float: center;
+  margin: 0px;
+}
+
+#nome {
+  margin: 0px;
+}
+
+#form {
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  border-radius: 30%;
+  background: grey;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+button:hover {
+  box-shadow: 3px 3px 15px black;
+  border-radius: 30%;
+  background: grey;
+  color: white;
+}
+
+label {
+  padding: 1px;
+}
+#name {
+  box-shadow: 3px 3px 15px black;
+}
+#phone {
+  box-shadow: 3px 3px 15px black;
+  margin: 0px;
+}
+#email {
+  box-shadow: 3px 3px 15px black;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+#href {
 }
